@@ -1,0 +1,311 @@
+
+/* padding بياخد او بياكل من width */
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.header {
+    background-color: #E5E5E5;
+    width           : 100%;
+    position        : relative;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    padding         : 10px 200px;
+
+}
+
+.T {
+    position        : absolute;
+    left            : 161px;
+    top             : 6px;
+    background-color: #458FF6;
+    height          : 31px;
+    width           : 31px;
+    border-radius   : 50%;
+    font-family     : 'Mulish';
+    font-style      : normal;
+    font-weight     : 700;
+    font-size       : 26px;
+    line-height     : 33px;
+
+    color: #FFFFFF;
+}
+
+.nav a {
+    color          : black;
+    text-decoration: none;
+    padding-left   : 30px;
+    font-family    : 'Mulish';
+    font-style     : normal;
+    font-weight    : 700;
+    font-size      : 18px;
+    line-height    : 23px;
+
+
+    color: #1F1534;
+
+
+}
+
+.Trafalgar {
+    font-family: 'Mulish';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 24px;
+    line-height: 30px;
+    color      : #233348;
+
+
+}
+
+.container {
+    position       : relative;
+    padding        : 100px 200px;
+    width          : 100%;
+    min-width      : 100vh;
+    display        : flex;
+    justify-content: center;
+    margin-top     : 100px;
+}
+
+.leftside {
+    position: absolute;
+    width   : 30%;
+    left    : 161px;
+
+}
+
+
+
+.Virtual {
+    position   : absolute;
+    font-family: 'Mulish';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 48px;
+    line-height: 56px;
+    color      : #000000;
+}
+
+.pargrapside {
+    position   : absolute;
+    top        : 150px;
+    font-family: 'Mulish';
+    font-style : normal;
+    font-weight: 300;
+    font-size  : 21px;
+    line-height: 32px;
+    color: #7D7987;
+
+
+}
+
+button {
+    position        : absolute;
+    top             : 300px;
+    background-color: #458FF6;
+    border-radius   : 55px;
+    padding         : 0 40px;
+    border          : none;
+    font-family     : 'Mulish';
+    font-style      : normal;
+    font-weight     : 700;
+    font-size       : 18px;
+    line-height     : 60px;
+}
+
+.rightside {
+    position: absolute;
+    right   : 190px;
+    width   : 30%;
+}
+
+/*sectionServic*/
+.sectionServic {
+    position      : relative;
+    top           : 700px;
+    display       : flex;
+    flex-direction: column;
+
+
+}
+
+.ourservices {
+    position: absolute;
+    top     : 30px;
+
+
+}
+
+.hservice {
+    position   : absolute;
+    left       : 250px;
+    bottom     : 160px;
+    font-family: 'Mulish';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 36px;
+    line-height: 56px;
+
+
+    color: #000000;
+
+}
+
+hr {
+    position     : absolute;
+    width        : 56px;
+    height       : 2px;
+    left         : 330px;
+    bottom       : 140px;
+    background   : #000000;
+    border-radius: 5px;
+}
+
+.pservice {
+    /* position:absolute;  */
+
+    font-family: 'Mulish';
+    font-style : normal;
+    font-weight: 300;
+    font-size  : 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #7D7987;
+}
+
+.card {
+    position  : absolute;
+    width     : 350px;
+    height    : 354px;
+    top       : 1000px;
+    background: #FFFFFF;
+    /* drop shadow */
+
+    box-shadow   : 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+
+}
+
+.card1 {
+    left: 0;
+    top : 150px;
+
+}
+
+.card2 {
+    left: 384px;
+    top : 150px;
+
+}
+
+.card3 {
+    left: 768px;
+    top : 150px;
+
+}
+
+.card4 {
+    left: 0;
+    top : 541px;
+
+}
+
+.card5 {
+    left: 384px;
+    top : 541px;
+
+}
+
+.card6 {
+    left: 768px;
+    top : 541px;
+
+}
+
+.btn {
+    box-sizing   : border-box;
+    position     : absolute;
+    top          : 1000px;
+    left         : 500px;
+    background   : #E5E5E5;
+    border       : 1.4px solid #458FF6;
+    border-radius: 55px;
+    font-family  : 'Mulish';
+    font-style   : normal;
+    font-weight  : 700;
+    font-size    : 18px;
+    line-height  : 60px;
+    color        : #458FF6;
+    
+}
+.healthcare{
+    position      : absolute;
+    top:2000px;
+    display: flex;
+    
+}
+.leftside2 {
+    position: absolute;
+    left:10%; 
+}
+
+.rightside2{
+   
+    position: absolute;
+    top:200px;
+    width:30%;
+    right:10%;
+}
+.rightside2 h2{
+    padding:15px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+/* or 156% */
+
+
+color: #000000;
+
+}
+.rightside2 p{
+    padding:15px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #7D7987;
+
+}
+.rightside2 hr{
+   
+    width: 56px;
+    height: 2px;
+    left: 330px;
+    bottom: 140px;
+    background: #000000;
+    border-radius: 5px;
+}
+.healthcare .btn{
+    left:900px;
+    top:500px;
+    width:12%;
+    margin:5px;
+   
+}
